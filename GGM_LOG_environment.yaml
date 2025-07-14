@@ -1,0 +1,21 @@
+name: LoG_GGM
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - matplotlib
+  - pillow
+  - pytorch
+  - torchvision
+  - torchaudio
+  - ipython
+  - ipywidgets
+  - ipykernel
+  - jupyterlab
+  - nbformat
+  - plotly
+  - pip
+  - pip:
+      - imageio  # for animation support
